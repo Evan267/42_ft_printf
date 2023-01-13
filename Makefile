@@ -1,11 +1,7 @@
 
 SRCS		= ft_printf.c includes/ft_print_var.c includes/ft_convert_base.c includes/ft_print_str.c includes/ft_print_int.c
 
-#SRCS_B		= bonus/ft_print_var.c includes/ft_convert_base.c bonus/ft_flag.c bonus/ft_test_var.c
-
 OBJS		= ${SRCS:.c=.o}
-
-#OBJS_BONUS	= ${SRCS_B:.c=.o}
 
 NAME		= libftprintf.a
 
