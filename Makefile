@@ -25,12 +25,6 @@ libft.a:
 
 all:		${NAME}
 
-#bonus:		fclean
-#			${CC} ${CFLAGS} -c ft_printf.c -o ft_printf.o
-#			${OBJS_BONUS} 
-#			libft.a
-#			ar rc ${NAME} ${OBJS_BONUS}
-
 clean:
 			${RM} ${OBJS} ${OBJS_BONUS}
 			make clean -C libft
